@@ -87,8 +87,8 @@ def main():
     if 'PLUG_IP' not in os.environ:
         raise Exception('PLUG_IP is not defined')
     smartPlug = os.environ.get('PLUG_IP')
-    startHour = os.environ.get('START_HOUR', 2)
-    endHour = os.environ.get('END_HOUR', 7)
+    startHour = int(os.environ.get('START_HOUR', 2))
+    endHour = int(os.environ.get('END_HOUR', 7))
     smartPlug = os.environ.get('PLUG_IP')
 
     runMainLoop(
