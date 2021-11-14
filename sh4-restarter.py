@@ -89,7 +89,6 @@ def main():
     smartPlug = os.environ.get('PLUG_IP')
     startHour = int(os.environ.get('START_HOUR', 2))
     endHour = int(os.environ.get('END_HOUR', 7))
-    smartPlug = os.environ.get('PLUG_IP')
 
     runMainLoop(
         superhub="192.168.100.1",
