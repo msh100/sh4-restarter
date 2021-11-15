@@ -16,7 +16,7 @@ supports all of the smart plugs that are supported there.
  * HS105
  * HS107
  * HS110
- * KP105
+ * [KP105](https://amzn.to/30o6vW8)
  * KP115
  * KP401
 
